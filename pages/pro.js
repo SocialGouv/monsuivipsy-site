@@ -33,12 +33,13 @@ const Index = () => {
             <h1 className="mb-2 text-3xl font-bold text-center text-white md:text-left lg:text-6xl">
               Mon Suivi Psy
             </h1>
-            <p className="mb-6 text-lg text-center text-denim-200 md:text-left lg:text-xl">
+            <p className="mb-6 text-2xl font-semibold text-center text-denim-200 md:text-left lg:text-2xl">
               Une application à proposer à vos patients pour voir l’évolution de
               leurs symptômes en un coup d’oeil
-              <br />
-              <br />
-              Inscrivez vous pour recevoir l'application en avant première
+            </p>
+            <br />
+            <p className="mb-6 text-xl text-center text-denim-200 md:text-left lg:text-xl">
+            Vous souhaitez participer à l'amélioration du produit ? Déposez votre email et recevez le lien de l'application
             </p>
             <div className="mb-10">
               <form className="flex items-center w-full max-w-sm p-1 bg-white rounded-full" onSubmit={submit}>
@@ -46,7 +47,7 @@ const Index = () => {
                   className="flex-1 pl-4 pr-2 text-sm font-medium text-gray-800 placeholder-black placeholder-opacity-40 focus:outline-none"
                   type="email"
                   name="email"
-                  placeholder="Enter email"
+                  placeholder="Entrer votre email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -58,8 +59,8 @@ const Index = () => {
             </div>
             <div className="flex flex-col space-y-6">
               <Checklist
-                title="Auto-observation simple et rapide pour le patient via l’application En quelques secondes"
-                subtitle="par jour, le patient remplit le questionnaire personnalisé que vous avez élaboré ensemble pour suivre son quotidien. Un rappel paramétré améliore son assiduité."
+                title="Auto-observation simple et rapide pour le patient via l’application en quelques secondes"
+                subtitle="Par jour, le patient remplit le questionnaire personnalisé que vous avez élaboré ensemble pour suivre son quotidien. Un rappel paramétré améliore son assiduité."
               />
               <Checklist
                 title="Visualisation instantanée de l’évolution des symptômes sur les 30 derniers jours, avec notes et prises de médicaments"

@@ -12,7 +12,7 @@ export default function Navigation({ patient = true }) {
       <div className="items-center justify-center hidden space-x-6 lg:flex">
         <Link name="Accueil" target="/" patient={patient} />
         <Link
-          name="Comment ca  marche"
+          name="Comment ça marche"
           target="#how-it-works"
           patient={patient}
         />
