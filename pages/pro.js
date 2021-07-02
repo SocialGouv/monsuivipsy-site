@@ -3,12 +3,22 @@ import Navigation from "components/navigation";
 
 import Footer from "components/footer";
 
+import { subscribe } from "../utils";
+
+
 const ANDROID_URL =
   "https://play.google.com/store/apps/details?id=com.monsuivipsy&hl=fr";
 const IOS_URL = "https://apps.apple.com/us/app/mon-suivi-psy/id1540061393";
 
 const Index = () => {
   const [questionNumber, setQuestionNumber] = useState(1);
+  const [email, setEmail] = useState("");
+
+  async function submit(e) {
+    e.preventDefault();
+    await subscribe(email, 36);
+    setEmail("");
+  }
 
   return (
     <div className="font-karla">
@@ -31,17 +41,20 @@ const Index = () => {
               Inscrivez vous pour recevoir l'application en avant première
             </p>
             <div className="mb-10">
-              <div className="flex items-center w-full max-w-sm p-1 bg-white rounded-full">
+              <form className="flex items-center w-full max-w-sm p-1 bg-white rounded-full" onSubmit={submit}>
                 <input
-                  className="flex-1 pl-4 pr-2 text-sm font-medium text-gray-800 placeholder-black placeholder-opacity-40"
+                  className="flex-1 pl-4 pr-2 text-sm font-medium text-gray-800 placeholder-black placeholder-opacity-40 focus:outline-none"
                   type="email"
                   name="email"
                   placeholder="Enter email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
-                <button className="flex-none px-5 py-2 text-sm font-bold text-white transition-all rounded-full bg-turqoise-500 hover:bg-turqoise-600">
+                <button className="flex-none px-5 py-2 text-sm font-bold text-white transition-all rounded-full focus:outline-none bg-turqoise-500 hover:bg-turqoise-600">
                  Recevoir l'application
                 </button>
-              </div>
+              </form>
             </div>
             <div className="flex flex-col space-y-6">
               <Checklist
