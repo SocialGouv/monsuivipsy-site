@@ -39,7 +39,7 @@ const Index = () => {
             </p>
             <br />
             <p className="mb-6 text-xl text-center text-denim-200 md:text-left lg:text-xl">
-            Vous souhaitez participer à l'amélioration du produit ? Déposez votre email et recevez le lien de l'application
+            Vous souhaitez participer à l'amélioration continue du produit ? Déposez votre email et essayez l'application
             </p>
             <div className="mb-10">
               <form className="flex items-center w-full max-w-sm p-1 bg-white rounded-full" onSubmit={submit}>
@@ -59,8 +59,8 @@ const Index = () => {
             </div>
             <div className="flex flex-col space-y-6">
               <Checklist
-                title="Auto-observation simple et rapide pour le patient via l’application en quelques secondes"
-                subtitle="Par jour, le patient remplit le questionnaire personnalisé que vous avez élaboré ensemble pour suivre son quotidien. Un rappel paramétré améliore son assiduité."
+                title="Auto-observation simple et rapide pour le patient via l’application"
+                subtitle="En quelques secondes par jour, le patient remplit le questionnaire personnalisé que vous avez élaboré ensemble pour suivre son quotidien. Un rappel paramétré améliore son assiduité."
               />
               <Checklist
                 title="Visualisation instantanée de l’évolution des symptômes sur les 30 derniers jours, avec notes et prises de médicaments"
