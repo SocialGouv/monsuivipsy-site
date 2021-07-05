@@ -39,10 +39,10 @@ const Index = () => {
             </p>
             <br />
             <p className="mb-6 text-xl text-center text-denim-200 md:text-left lg:text-xl">
-            Vous souhaitez participer à l'amélioration continue du produit ? Déposez votre email et essayez l'application
+            Des idées pour améliorer l'outil ? Déposez votre email et rejoignez notre communauté
             </p>
             <div className="mb-10">
-              <form className="flex items-center w-full max-w-sm p-1 bg-white rounded-full" onSubmit={submit}>
+              <form className="flex items-center w-full max-w-md p-1 bg-white rounded-full" onSubmit={submit}>
                 <input
                   className="flex-1 pl-4 pr-2 text-sm font-medium text-gray-800 placeholder-black placeholder-opacity-40 focus:outline-none"
                   type="email"
@@ -53,7 +53,7 @@ const Index = () => {
                   required
                 />
                 <button className="flex-none px-5 py-2 text-sm font-bold text-white transition-all rounded-full focus:outline-none bg-turqoise-500 hover:bg-turqoise-600">
-                 Recevoir l'application
+                 Recevoir des informations
                 </button>
               </form>
             </div>
