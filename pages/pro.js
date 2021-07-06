@@ -16,7 +16,7 @@ const Index = () => {
 
   async function submit(e) {
     e.preventDefault();
-    await subscribe(email, 36);
+    await subscribe(email, 58);
     setEmail("");
   }
 
