@@ -1,5 +1,5 @@
 {
-  "type": "static",
+  "type": "app",
   "name": "monsuivipsy-site",
   "subdomain": "monsuivipsy",
   "ingress": {
