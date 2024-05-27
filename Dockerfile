@@ -1,4 +1,4 @@
-ARG NODE_VERSION=15.9-alpine
+ARG NODE_VERSION=18-alpine
 FROM node:$NODE_VERSION AS base
 
 RUN mkdir /app && chown 1000:1000 /app
