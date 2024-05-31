@@ -1,4 +1,6 @@
 app:
+  autoscale:
+    enabled: true
   host: jardinmental.fabrique.social.gouv.fr
   redirectFrom:
     - jardinmental.fr
