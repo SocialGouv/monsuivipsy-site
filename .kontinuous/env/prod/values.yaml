@@ -1,6 +1,11 @@
 app:
-  autoscale:
-    enabled: true
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 200m
+      memory: 384Mi
   host: jardinmental.fabrique.social.gouv.fr
   redirectFrom:
     - jardinmental.fr
