@@ -82,11 +82,6 @@ export default function Index() {
       </header>
       <main>
         <div className="bg-gray-50">
-          <div className="container w-full md:w-1/2 py-10">
-            <div className="items-center justify-center w-full shadow-lg">
-              <Video src="/videos/presentationMSP.mp4" />
-            </div>
-          </div>
           <div className="container py-20">
             <h3 className="mb-8 text-2xl font-bold text-center lg:text-4xl text-denim-800 lg:mb-14">
               Le contexte actuel des troubles psychiques

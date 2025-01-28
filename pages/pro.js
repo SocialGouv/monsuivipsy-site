@@ -114,11 +114,6 @@ const Index = () => {
       </header>
       <main>
         <div className=" bg-gray-50">
-          <div className="container w-full md:w-1/2 py-10">
-            <div className="items-center justify-center w-full shadow-lg">
-              <Video src="/videos/presentationMSP.mp4" />
-            </div>
-          </div>
           <div className="container  py-20">
             <div className="w-full mx-auto mb-6 md:w-8/12 lg:mb-10">
               <h3 className="mb-2 text-2xl font-bold text-center lg:text-4xl text-denim-800">
@@ -155,17 +150,19 @@ const Index = () => {
                   </p>
                 </div>
                 <div className="p-4 bg-white flex items-center rounded-2xl ">
-                    <p className="text-sm text-center text-black">
-                      “La patiente m’a dit qu’elle allait très bien. Mais en regardant le niveau d’anxiété, 
-                      je me suis rendu compte qu’il était toujours élevé. J’ai donc pu adapter le traitement avec 
-                      cette information“
-                    </p>
+                  <p className="text-sm text-center text-black">
+                    “La patiente m’a dit qu’elle allait très bien. Mais en
+                    regardant le niveau d’anxiété, je me suis rendu compte qu’il
+                    était toujours élevé. J’ai donc pu adapter le traitement
+                    avec cette information“
+                  </p>
                 </div>
                 <div className="p-4 bg-white flex items-center  rounded-2xl">
-                    <p className="text-sm text-center text-black">
-                      "C’est un moyen pour le patient d’accroître sa motivation entre deux séances et d’être plus autonome 
-                      dans la prise en charge de sa maladie“
-                    </p>
+                  <p className="text-sm text-center text-black">
+                    "C’est un moyen pour le patient d’accroître sa motivation
+                    entre deux séances et d’être plus autonome dans la prise en
+                    charge de sa maladie“
+                  </p>
                 </div>
                 <div className="p-4 bg-white flex items-center rounded-2xl  ">
                   <p className="text-sm text-center text-black">
@@ -380,7 +377,7 @@ const Index = () => {
           </div>
           <div className="bg-gray-50 p-12 flex justify-center flex-wrap gap-8">
             <div className="p-12 bg-white rounded-2xl">
-                <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
+              <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
                 Notice{" "}
               </h6>
               <div className="flex justify-center shadow-xl">
@@ -390,51 +387,50 @@ const Index = () => {
               </div>
             </div>
             <div className="p-12 bg-white rounded-2xl">
-                <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
-                Flyer usager {" "}
-                </h6>
-                <div className="flex justify-center shadow-xl">
+              <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
+                Flyer usager{" "}
+              </h6>
+              <div className="flex justify-center shadow-xl">
                 <a href="Flyer_usager_Jardin_Mental.pdf" download>
-                <img   
-                  className="h-20"
-                  src="images/other/flyerUsager2.png"
-                  alt=""
-                  //style={{transform:"rotate(-90deg)"}}
-                />
-                <img   
-                  className="h-20"
-                  src="images/other/flyerUsager.png"
-                  alt=""
-                  //style={{transform:"rotate(-90deg)"}}
-                />
+                  <img
+                    className="h-20"
+                    src="images/other/flyerUsager2.png"
+                    alt=""
+                    //style={{transform:"rotate(-90deg)"}}
+                  />
+                  <img
+                    className="h-20"
+                    src="images/other/flyerUsager.png"
+                    alt=""
+                    //style={{transform:"rotate(-90deg)"}}
+                  />
                 </a>
               </div>
             </div>
             <div className="p-12 bg-white rounded-2xl">
-                <h6 className="mb-2 text-center text-lg font-bold text-denim-800">
-                Affiche {" "}
-                </h6>
-                <div className="flex justify-center shadow-xl">
+              <h6 className="mb-2 text-center text-lg font-bold text-denim-800">
+                Affiche{" "}
+              </h6>
+              <div className="flex justify-center shadow-xl">
                 <a href="Affiche_Jardin_Mental.pdf" download>
                   <img className="h-40" src="images/other/affiche.png" alt="" />
                 </a>
               </div>
             </div>
             <div className="p-12 bg-white rounded-2xl space-y-6">
-                <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
-                  Contacter l’équipe de Jardin Mental pour :
-                </h6>
-                <div>
-                  <ul className="text-sm list-disc list-inside space-y-4">
-                    <li>
-                      Recevoir des flyers, affiches, cartes ou stickers Jardin Mental par la poste                    
-                      </li>
-                    <li>
-                      Demander une amélioration
-                    </li>
-                  </ul>
-                </div>
-                <div>
+              <h6 className="mb-2 text-lg font-bold text-denim-800 text-center">
+                Contacter l’équipe de Jardin Mental pour :
+              </h6>
+              <div>
+                <ul className="text-sm list-disc list-inside space-y-4">
+                  <li>
+                    Recevoir des flyers, affiches, cartes ou stickers Jardin
+                    Mental par la poste
+                  </li>
+                  <li>Demander une amélioration</li>
+                </ul>
+              </div>
+              <div>
                 <a
                   className="text-base font-bold break-all md:text-lg text-turqoise-500"
                   href="mailto:jardinmental@fabrique.social.gouv.fr"
