@@ -63,11 +63,11 @@ export default function Footer() {
           La Fabrique Numérique des Ministères sociaux
         </p>
         <p className="mb-2 text-base text-black">
-          Tour Mirabeau
+          Fabrique Numérique des Ministères Sociaux
           <br />
-          39-43 Quai André Citroën
+          14 avenue Duquesne
           <br />
-          75015 PARIS
+          75350 Paris 07 SP
         </p>
         <a
           className="text-base font-bold break-all md:text-lg text-turqoise-500"
