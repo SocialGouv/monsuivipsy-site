@@ -30,9 +30,6 @@ export default function Footer() {
           <br />
           porté par la Fabrique, incubateur des ministères sociaux.
         </p>
-        <p className="mb-1 text-xs text-black opacity-70">
-          Copyright © 2023 Jardin Mental.
-        </p>
         <div className="flex space-x-3">
           <a
             className="text-xs font-semibold text-black opacity-70"
@@ -63,8 +60,6 @@ export default function Footer() {
           La Fabrique Numérique des Ministères sociaux
         </p>
         <p className="mb-2 text-base text-black">
-          Fabrique Numérique des Ministères Sociaux
-          <br />
           14 avenue Duquesne
           <br />
           75350 Paris 07 SP
