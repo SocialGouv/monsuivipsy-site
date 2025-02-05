@@ -49,7 +49,7 @@ export default () => {
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                  <strong>Données relatives aux professionnels</strong>: adresse
+                  <strong>Données relatives aux professionnels</strong> : adresse
                   courriel. La communication de cette donnée est une simple
                   possibilité proposée aux professionnels sur le site vitrine. 
                 </li>
@@ -70,6 +70,7 @@ export default () => {
                   responsable de traitement au sens de l’article 6-1 e) du RGPD.
                 </li>
               </ul>
+              <br>
               <p className="mb-0.5">
                     Cette mission d'intérêt public se traduit en pratique par :
               </p>
