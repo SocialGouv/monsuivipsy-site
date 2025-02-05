@@ -70,7 +70,6 @@ export default () => {
                   responsable de traitement au sens de l’article 6-1 e) du RGPD.
                 </li>
               </ul>
-              <br>
               <p className="mb-0.5">
                     Cette mission d'intérêt public se traduit en pratique par :
               </p>
