@@ -11,7 +11,7 @@ export default () => {
 
       <div className="container py-14">
         <h3 className="mb-6 text-2xl font-bold text-center lg:text-4xl text-denim-800 lg:mb-10">
-          Politique de confidentialité – Jardin mental
+          Politique de confidentialité du site vitrine Jardin mental
         </h3>
 
         <div className="grid grid-cols-1 gap-8">
@@ -19,9 +19,7 @@ export default () => {
             <Title title="Qui est responsable de Jardin mental ?" />
             <Content>
               <p>
-                Le service numérique « Jardin mental » est à l’initiative de la
-                Direction générale de la santé au sein de la Fabrique numérique
-                des ministères sociaux.
+                Le site vitrine « Jardin mental » est à l’initiative de la Direction générale de la santé au sein de la Fabrique numérique des ministères sociaux. L’objectif du site vitrine est de présenter l’application mobile qui existe sur les magasins d’applications et de permettre aux professionnels d’être mis au courant des évolutions et actualités de l’application mobile.
               </p>
             </Content>
           </div>
