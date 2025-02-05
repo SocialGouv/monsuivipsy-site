@@ -11,39 +11,39 @@ export default () => {
 
       <div className="container py-14">
         <h3 className="mb-6 text-2xl font-bold text-center lg:text-4xl text-denim-800 lg:mb-10">
-          Mentions légales
+          Mentions légales du site vitrine Jardin Mental
         </h3>
 
         <div className="grid grid-cols-1 gap-8">
           <div>
             <Title title="Éditeur du site" />
             <Content>
-              <p>Le site Jardin Mental est édité par l’ARS Ile de France :</p>
+              <p>Le site vitrine Jardin Mental est édité par la Direction Générale de la Santé (DGS) au sein de la Fabrique numérique des ministères sociaux située :</p>
               <br />
               <ul>
-                <li>Tour Mirabeau</li>
-                <li>39-43 Quai André Citroën</li>
-                <li>75015 PARIS</li>
-                <li>Tél. : 01 40 56 60 00</li>
+                <li>14 avenue Duquesne</li>
+                <li>75350 Paris SP 07</li>
+                <li>France</li>
+                <li>Téléphone : 01 40 56 60 00</li>
               </ul>
               <br />
               <strong>Directeur de la publication</strong>
-              <p>Madame Amélie Verdier, Directrice</p>
+              <p>Monsieur Grégory EMERY, directeur général de la santé</p>
             </Content>
           </div>
 
           <div>
-            <Title title="Hébergement du site" />
+            <Title title="Hébergement du site vitrine" />
             <Content>
               <p>
-                Ce site est hébergé par Microsoft Azure France (région France
-                centre) :
+                Ce site est hébergé par :
               </p>
               <br />
               <ul>
                 <li>OVH SAS</li>
                 <li>2 rue Kellermann - 59100 Roubaix</li>
-                <li>France.</li>
+                <li>France</li>
+                <li>Téléphone : 1007</li>
               </ul>
             </Content>
           </div>
@@ -65,7 +65,7 @@ export default () => {
               <p>
                 Si vous rencontrez un défaut d’accessibilité vous empêchant
                 d’accéder à un contenu ou une fonctionnalité du site, merci de
-                nous en faire part. Si vous n’obtenez pas de réponse rapide de
+                nous en faire part : jardinmental@fabrique.social.gouv.fr. Si vous n’obtenez pas de réponse rapide de
                 notre part, vous êtes en droit de faire parvenir vos doléances
                 ou une demande de saisine au Défenseur des droits.
               </p>
@@ -78,7 +78,7 @@ export default () => {
               <p>
                 Pour en savoir plus sur la politique d’accessibilité numérique
                 de l’État :
-                http://references.modernisation.gouv.fr/accessibilite-numerique
+                https://accessibilite.numerique.gouv.fr/ 
               </p>
             </Content>
           </div>
@@ -90,7 +90,7 @@ export default () => {
                 Le site est protégé par un certificat électronique, matérialisé
                 pour la grande majorité des navigateurs par un cadenas. Cette
                 protection participe à la confidentialité des échanges. En aucun
-                cas les services associés au site ne seront à l’origine d’envoi
+                cas les services associés au site vitrine ne seront à l’origine d’envoi
                 de courriels pour demander la saisie d’informations
                 personnelles.
               </p>
