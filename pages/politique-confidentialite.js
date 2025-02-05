@@ -19,7 +19,9 @@ export default () => {
             <Title title="Qui est responsable de Jardin mental ?" />
             <Content>
               <p>
-                Le site vitrine « Jardin mental » est à l’initiative de la Direction générale de la santé au sein de la Fabrique numérique des ministères sociaux. L’objectif du site vitrine est de présenter l’application mobile qui existe sur les magasins d’applications et de permettre aux professionnels d’être mis au courant des évolutions et actualités de l’application mobile.
+                Le site vitrine « Jardin mental » est à l’initiative de la Direction générale de la santé au sein de la Fabrique numérique des ministères sociaux.
+                L’objectif du site vitrine est de présenter l’application mobile qui existe sur les magasins d’applications et de permettre aux professionnels 
+                d’être mis au courant des évolutions et actualités de l’application mobile.
               </p>
             </Content>
           </div>
