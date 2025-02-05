@@ -30,15 +30,12 @@ export default () => {
             <Title title="Pourquoi traitons-nous des données à caractère personnel ?" />
             <Content>
               <p className="mb-0.5">
-                Jardin mental traite des données à caractère personnel pour les
+                Le site vitrine Jardin mental traite des données à caractère personnel pour les
                 raisons suivantes :
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                  Accompagner les personnes qui le souhaitent à mieux connaître
-                  et suivre leurs symptômes, leurs ressentis ou toute activité
-                  personnalisée, leur permettant de faciliter leur
-                  accompagnement psychologique.
+                Permettre aux professionnels d’être mis au courant des évolutions et actualités de l’application mobile Jardin Mental. 
                 </li>
               </ul>
             </Content>
@@ -48,14 +45,13 @@ export default () => {
             <Title title="Quelles sont les données à caractère personnel que nous traitons ?" />
             <Content>
               <p className="mb-0.5">
-                Jardin mental traite les données suivantes :
+                Le site vitrine Jardin mental traite les données suivantes :
               </p>
               <ul className="list-disc list-inside">
                 <li>
                   <strong>Données relatives aux professionnels</strong>: adresse
-                  e-mail. La communication de cette donnée est une simple
-                  possibilité proposée pour être tenu au courant des prochaines
-                  évolutions et actualités de Jardin mental.
+                  courriel. La communication de cette donnée est une simple
+                  possibilité proposée aux professionnels sur le site vitrine. 
                 </li>
               </ul>
             </Content>
@@ -65,8 +61,7 @@ export default () => {
             <Title title="Qu’est-ce qui nous autorise à traiter des données à caractère personnel ?" />
             <Content>
               <p className="mb-0.5">
-                Jardin mental traite des données à caractère personnel sur son
-                application en se basant sur :
+                Le site vitrine Jardin mental traite des données à caractère personnel en se basant sur :
               </p>
               <ul className="list-disc list-inside">
                 <li>
@@ -75,14 +70,12 @@ export default () => {
                   responsable de traitement au sens de l’article 6-1 e) du RGPD.
                 </li>
               </ul>
-              <p className="mb-0.5">Et concernant le site vitrine, sur :</p>
+              <p className="mb-0.5">
+                    Cette mission d'intérêt public se traduit en pratique par :
+              </p>
               <ul className="list-disc list-inside">
-                <li>
-                  L’intérêt légitime poursuivi par le responsable de traitement
-                  sans que ne prévalent les intérêts ou les libertés et droits
-                  fondamentaux des personnes concernées, au sens de l’article
-                  6-1 f) du RGPD.
-                </li>
+                <li>L’article D. 1421-1 du code de la santé publique ;</li>
+                <li>L’arrêté du 6 avril 2016 portant organisation de la direction générale de la santé, notamment ses articles 5 et 6.</li>
               </ul>
             </Content>
           </div>
@@ -107,7 +100,7 @@ export default () => {
                       Données relatives aux professionnels
                     </td>
                     <td className="p-3 border border-denim-900">
-                      Jusqu’à la demande de désinscription à la newsletter
+                      Jusqu’à la demande de désinscription à la lettre d'information
                     </td>
                   </tr>
                 </tbody>
@@ -136,10 +129,11 @@ export default () => {
               </p>
               <p>Par voie postale :</p>
               <ul className="list-inside italic mb-2">
-                <li>Direction du Numérique des ministères sociaux</li>
-                <li>Ministère des solidarités et de la santé</li>
-                <li>39-43 Quai André Citroën</li>
-                <li>75015 Paris</li>
+                <li>Ministère du Travail, de la Santé et des Solidarités </li>
+                <li>Direction générale de la santé</li>
+                <li>14 avenue Duquesne </li>
+                <li>75007 Paris</li>
+                <li>France</li>     
               </ul>
               <p className="mb-2">
                 Puisque ce sont des droits personnels, nous ne traiterons votre
@@ -229,13 +223,13 @@ export default () => {
                   <tr>
                     <td className="p-3 border border-denim-900">OVH</td>
                     <td className="p-3 border border-denim-900">France</td>
-                    <td className="p-3 border border-denim-900">Hébergement</td>
+                    <td className="p-3 border border-denim-900">Hébergement des données</td>
                     <td className="p-3 border border-denim-900">
                       <a
                         className="text-denim-700"
-                        href="https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/9e74492-OVH_Data_Protection_Agreement-FR-6.0.pdf"
+                        href="https://us.ovhcloud.com/legal/data-processing-agreement/"
                       >
-                        OVH Data Protection Agreement
+                        OVH Data Processing Agreement
                       </a>
                     </td>
                   </tr>
@@ -245,50 +239,12 @@ export default () => {
           </div>
 
           <div>
-            <Title title="Cookies" />
+            <Title title="Témoins de connexion et traceurs" />
             <Content>
               <p className=" mb-2">
-                Un cookie est un fichier déposé sur votre terminal lors de la
-                visite d’un site. Il a pour but de collecter des informations
-                relatives à votre navigation et de vous adresser des services
-                adaptés à votre terminal (ordinateur, mobile ou tablette).
-              </p>
-              <p className=" mb-2">
-                En application de l’article 5(3) de la directive 2002/58/CE
-                modifiée concernant le traitement des données à caractère
-                personnel et la protection de la vie privée dans le secteur des
-                communications électroniques, transposée à l’article 82 de la
-                loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux
-                fichiers et aux libertés, les traceurs ou cookies suivent deux
-                régimes distincts.
-              </p>
-              <p className=" mb-2">
-                Les cookies strictement nécessaires au service ou ayant pour
-                finalité exclusive de faciliter la communication par voie
-                électronique sont dispensés de consentement préalable au titre
-                de l’article 82 de la loi n°78-17 du 6 janvier 1978.
-              </p>
-              <p className=" mb-2">
-                Les cookies n’étant pas strictement nécessaires au service ou
-                n’ayant pas pour finalité exclusive de faciliter la
-                communication par voie électronique doivent être consentis par
-                l’utilisateur.
-              </p>
-              <p className=" mb-2">
-                Ce consentement de la personne concernée pour une ou plusieurs
-                finalités spécifiques constitue une base légale au sens du RGPD
-                et doit être entendu au sens de l'article 6-a du Règlement (UE)
-                2016/679 du Parlement européen et du Conseil du 27 avril 2016
-                relatif à la protection des personnes physiques à l'égard du
-                traitement des données à caractère personnel et à la libre
-                circulation de ces données.
-              </p>
-              <p className=" mb-2">
-                À tout moment, vous pouvez refuser l’utilisation des cookies et
-                désactiver le dépôt sur votre ordinateur en utilisant la
-                fonction dédiée de votre navigateur (fonction disponible
-                notamment sur Microsoft Internet Explorer 11, Google Chrome,
-                Mozilla Firefox, Apple Safari et Opera).
+                Un témoin de connexion ou traceur est un fichier déposé sur votre ordinateur lorsque vous accédez au site vitrine pour collecter certaines de vos informations.
+                Sur le site vitrine Jardin Mental, des témoins de connexion ou traceurs de mesure d’audience sont déposés mais ne nécessitent pas le recueil de votre consentement
+                conformément aux recommandations de la CNIL. Nous utilisons la solution « Matomo » configurée en mode exempté. 
               </p>
               <p className=" mb-2">
                 Pour aller plus loin, vous pouvez consulter les fiches proposées
@@ -314,17 +270,11 @@ export default () => {
                 </li>
               </ul>
               <br />
-              <p className=" mb-2">
-                Nous utilisons Matomo, une solution de mesure d’audience,
-                configuré en “mode exempté” ne nécessitant pas le recueil du
-                consentement des utilisateurs conformément aux recommandations
-                de la CNIL.
-              </p>
               <label htmlFor="check">
                 <input type="checkbox" id="check" checked />
                 <span className="font-bold text-denim-700">
-                  Vous êtes suivis de manière anonyme. Décochez cette case pour
-                  ne plus être suivi.
+                  Vous êtes suivi.e de manière anonyme. Décochez cette case pour
+                  ne plus être suivi.e.
                 </span>
               </label>
             </Content>
