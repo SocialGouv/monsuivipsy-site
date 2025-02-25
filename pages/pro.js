@@ -199,7 +199,7 @@ const Index = () => {
                 </div>
                 <div className="p-4 bg-white flex items-center rounded-2xl  ">
                   <p className="text-sm text-center text-black">
-                    "Grâce à l'envoi données, j'ai pu anticiper une crise
+                    "Grâce à l'envoi des données, j'ai pu anticiper une crise
                     suicidaire chez un patient"
                   </p>
                 </div>
