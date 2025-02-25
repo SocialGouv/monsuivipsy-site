@@ -271,7 +271,7 @@ const Index = () => {
                   </a>
                 </div>
                 <div>
-                  <a href="https://www.essentiel-sante-magazine.fr/sante/acces-aux-soins/mon-suivi-psy-appli-sante-psychologique">
+                  <a href="https://www.harmonie-sante.fr/sante-soins/acces-aux-soins/mon-suivi-psy-appli-meilleur-suivi-sa-sante-psychologique">
                     <img
                       className=""
                       src="images/icon/logo_essentielmental.png"
