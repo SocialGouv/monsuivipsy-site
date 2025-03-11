@@ -26,6 +26,9 @@ export default function Footer() {
           </a>
         </div>
         <p className="mb-1 text-xs text-black opacity-70">
+          Anciennement MonSuiviPsy
+        </p>
+        <p className="mb-1 text-xs text-black opacity-70">
           Créé par le dr Lya Pedron, financé par l'ARS et la DINUM,
           <br />
           porté par la Fabrique, incubateur des ministères sociaux.
