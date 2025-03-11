@@ -19,9 +19,12 @@ export default () => {
             <Title title="Qui est responsable de Jardin mental ?" />
             <Content>
               <p>
-                Le site vitrine « Jardin mental » est à l’initiative de la Direction générale de la santé au sein de la Fabrique numérique des ministères sociaux.
-                L’objectif du site vitrine est de présenter l’application mobile qui existe sur les magasins d’applications et de permettre aux professionnels 
-                d’être mis au courant des évolutions et actualités de l’application mobile.
+                Le site vitrine « Jardin mental » est à l'initiative de la
+                Direction générale de la santé au sein de la Fabrique numérique
+                des ministères sociaux. L'objectif du site vitrine est de
+                présenter l'application mobile qui existe sur les magasins
+                d'applications et de permettre aux professionnels d'être mis au
+                courant des évolutions et actualités de l'application mobile.
               </p>
             </Content>
           </div>
@@ -30,12 +33,14 @@ export default () => {
             <Title title="Pourquoi traitons-nous des données à caractère personnel ?" />
             <Content>
               <p className="mb-0.5">
-                Le site vitrine Jardin mental traite des données à caractère personnel pour les
-                raisons suivantes :
+                Le site vitrine Jardin mental traite des données à caractère
+                personnel pour les raisons suivantes :
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                Permettre aux professionnels d’être mis au courant des évolutions et actualités de l’application mobile Jardin Mental. 
+                  Permettre aux professionnels d'être mis au courant des
+                  évolutions et actualités de l'application mobile Jardin
+                  Mental.
                 </li>
               </ul>
             </Content>
@@ -49,33 +54,38 @@ export default () => {
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                  <strong>Données relatives aux professionnels</strong> : adresse
-                  courriel. La communication de cette donnée est une simple
-                  possibilité proposée aux professionnels sur le site vitrine. 
+                  <strong>Données relatives aux professionnels</strong> :
+                  adresse courriel. La communication de cette donnée est une
+                  simple possibilité proposée aux professionnels sur le site
+                  vitrine.
                 </li>
               </ul>
             </Content>
           </div>
 
           <div>
-            <Title title="Qu’est-ce qui nous autorise à traiter des données à caractère personnel ?" />
+            <Title title="Qu'est-ce qui nous autorise à traiter des données à caractère personnel ?" />
             <Content>
               <p className="mb-0.5">
-                Le site vitrine Jardin mental traite des données à caractère personnel en se basant sur :
+                Le site vitrine Jardin mental traite des données à caractère
+                personnel en se basant sur :
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                  L’exécution d’une mission d’intérêt public ou relevant de
-                  l’exercice de l’autorité publique dont est investi le
-                  responsable de traitement au sens de l’article 6-1 e) du RGPD.
+                  L'exécution d'une mission d'intérêt public ou relevant de
+                  l'exercice de l'autorité publique dont est investi le
+                  responsable de traitement au sens de l'article 6-1 e) du RGPD.
                 </li>
               </ul>
               <p className="mb-0.5">
-                    Cette mission d'intérêt public se traduit en pratique par :
+                Cette mission d'intérêt public se traduit en pratique par :
               </p>
               <ul className="list-disc list-inside">
-                <li>L’article D. 1421-1 du code de la santé publique ;</li>
-                <li>L’arrêté du 6 avril 2016 portant organisation de la direction générale de la santé, notamment ses articles 5 et 6.</li>
+                <li>L'article D. 1421-1 du code de la santé publique ;</li>
+                <li>
+                  L'arrêté du 6 avril 2016 portant organisation de la direction
+                  générale de la santé, notamment ses articles 5 et 6.
+                </li>
               </ul>
             </Content>
           </div>
@@ -100,7 +110,8 @@ export default () => {
                       Données relatives aux professionnels
                     </td>
                     <td className="p-3 border border-denim-900">
-                      Jusqu’à la demande de désinscription à la lettre d'information
+                      Jusqu'à la demande de désinscription à la lettre
+                      d'information
                     </td>
                   </tr>
                 </tbody>
@@ -113,10 +124,10 @@ export default () => {
             <Content>
               <p>Vous disposez :</p>
               <ul className="list-disc list-inside mb-2">
-                <li>D’un droit d’information et droit d’accès ;</li>
-                <li>D’un droit de rectification ;</li>
-                <li>D’un droit d’opposition ;</li>
-                <li>D’un droit à la limitation du traitement.</li>
+                <li>D'un droit d'information et droit d'accès ;</li>
+                <li>D'un droit de rectification ;</li>
+                <li>D'un droit d'opposition ;</li>
+                <li>D'un droit à la limitation du traitement.</li>
               </ul>
               <p className="mb-2">
                 Pour les exercer, contactez-nous par voie électronique :{" "}
@@ -133,7 +144,7 @@ export default () => {
                 <li>Direction générale de la santé</li>
                 <li>14 avenue Duquesne </li>
                 <li>75007 Paris</li>
-                <li>France</li>     
+                <li>France</li>
               </ul>
               <p className="mb-2">
                 Puisque ce sont des droits personnels, nous ne traiterons votre
@@ -169,7 +180,7 @@ export default () => {
               </p>
               <ul className="list-disc list-inside">
                 <li>
-                  Les membres de l’équipe Jardin Mental au sein de la Fabrique
+                  Les membres de l'équipe Jardin Mental au sein de la Fabrique
                   numérique des ministères sociaux.
                 </li>
               </ul>
@@ -194,7 +205,7 @@ export default () => {
                 <li>Protection des réseaux ;</li>
                 <li>Sauvegarde ;</li>
                 <li>
-                  Mesures restrictives limitant l’accès physique aux données à
+                  Mesures restrictives limitant l'accès physique aux données à
                   caractère personnel.
                 </li>
               </ul>
@@ -223,13 +234,34 @@ export default () => {
                   <tr>
                     <td className="p-3 border border-denim-900">OVH</td>
                     <td className="p-3 border border-denim-900">France</td>
-                    <td className="p-3 border border-denim-900">Hébergement des données</td>
+                    <td className="p-3 border border-denim-900">
+                      Hébergement des données
+                    </td>
                     <td className="p-3 border border-denim-900">
                       <a
                         className="text-denim-700"
                         href="https://us.ovhcloud.com/legal/data-processing-agreement/"
                       >
                         OVH Data Processing Agreement
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 border border-denim-900">
+                      Positive Group France SAS (Sarbacane)
+                    </td>
+                    <td className="p-3 border border-denim-900">France</td>
+                    <td className="p-3 border border-denim-900">
+                      Solution utilisée lorsque l'utilisateur choisit d'envoyer
+                      par courriel un récapitulatif de ses données à la personne
+                      de son choix
+                    </td>
+                    <td className="p-3 border border-denim-900">
+                      <a
+                        className="text-denim-700"
+                        href="https://assets.sarbacane-cdn.com/legal/FR_DataProcessingAddendum.pdf"
+                      >
+                        https://assets.sarbacane-cdn.com/legal/FR_DataProcessingAddendum.pdf
                       </a>
                     </td>
                   </tr>
@@ -242,9 +274,14 @@ export default () => {
             <Title title="Témoins de connexion et traceurs" />
             <Content>
               <p className=" mb-2">
-                Un témoin de connexion ou traceur est un fichier déposé sur votre ordinateur lorsque vous accédez au site vitrine pour collecter certaines de vos informations.
-                Sur le site vitrine Jardin Mental, des témoins de connexion ou traceurs de mesure d’audience sont déposés mais ne nécessitent pas le recueil de votre consentement
-                conformément aux recommandations de la CNIL. Nous utilisons la solution « Matomo » configurée en mode exempté. 
+                Un témoin de connexion ou traceur est un fichier déposé sur
+                votre ordinateur lorsque vous accédez au site vitrine pour
+                collecter certaines de vos informations. Sur le site vitrine
+                Jardin Mental, des témoins de connexion ou traceurs de mesure
+                d'audience sont déposés mais ne nécessitent pas le recueil de
+                votre consentement conformément aux recommandations de la CNIL.
+                Nous utilisons la solution « Matomo » configurée en mode
+                exempté.
               </p>
               <p className=" mb-2">
                 Pour aller plus loin, vous pouvez consulter les fiches proposées
