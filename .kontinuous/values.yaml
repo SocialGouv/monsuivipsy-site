@@ -1,4 +1,6 @@
 app:
+  ~chart: app
+  imagePackage: app
   containerPort: 3000
   probesPath: /api/healthz
   envFrom:
